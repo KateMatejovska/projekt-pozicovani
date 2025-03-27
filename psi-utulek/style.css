@@ -17,6 +17,11 @@ body {
   color: white;
 }
 
+img {
+  position: sticky;
+  top: 90px;
+}
+
 .header {
   padding: 15px;
   display: flex;
@@ -24,6 +29,11 @@ body {
   align-items: center;
   background: var(--header-bg-color);
   color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .logo {
@@ -55,6 +65,7 @@ body {
 .content {
   width: 760px;
   margin-inline: auto;
+  margin-top: 100px;
 }
 
 .intro,
@@ -81,6 +92,7 @@ body {
 .dog__image {
   width: 200px;
   text-align: center;
+  
 }
 
 .dog__description {
@@ -102,5 +114,6 @@ body {
 .dog__description :last-child {
   margin-bottom: 0;
 }
+
 
 

@@ -14,3 +14,22 @@ body {
   font-size: 1.125rem;
   line-height: 1.4;
 }
+
+img {
+  position: sticky;
+  top: 0;
+}
+
+.header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--header-bg-color);
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
